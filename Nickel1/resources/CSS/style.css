@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Josephin Sans", sans-serif;
+}
+
+body {
+    font-family: 'Lato';
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Catamaran';
+    font-weight: 150 !important;
+  }
+
+  .navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+  }
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../IMG/trio.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+  }
+  
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+
+  header.masthead .down-button{
+   padding: 1.5rem 3rem;
+   font-weight: 700;
+    }
+  
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+  }
+
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  .container3 {
+    width: auto;
+    text-align: center;
+  }
+
+  .container4 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #18316B;
+  }
+
+  .container4 .input_field{
+    margin-bottom: 10px;
+  }
+
+  .container4 .input_field input[type="text"],
+  .container4 textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+  }
+
+  .container4 .input_field input[type="password"],
+  .container4 textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+  } 
+
+  .container4 .input_field input[type="number"],
+  .container4 textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+  }
+
+  .container4 .input_field input[type="email"],
+  .container4 textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+  }
+  
+
+  .container4 textarea{
+    height: 80px;
+    resize: none;
+  }
+
+  .container4 .btn button[type= "submit"]{
+    padding: 0.5rem 1rem 0.5rem;
+    border: 0;
+    margin-left: -1rem;
+    background: #18316B;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .container4 .btn button[type= "submit"] :hover {
+    color: black;
+  }
+  
+  .container4 #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: #18316B;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  
+.social{
+text-align: center;
+padding-bottom: 0px;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
+  
+  .footer {
+    background-color: #f5f5f5;
+  }
+
+ .carousel-caption text-left{
+   background-image: url(../IMG/getty1.jpg);
+ }
+
+.GMT {
+  background-image: linear-gradient(to bottom right, #18316B, white);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: arial;
+  user-select: none;
+  background-color: white;
+  height: 110vh;
+}
+
+.overlay {
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+.time_widget {
+  bottom: 50px;
+  left: 30px
+}
+
+.time_label {
+  font-size: 58px;
+  font-weight: bolder
+}
+
